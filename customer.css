@@ -1,23 +1,38 @@
 @font-face {
     font-family: "Futura";
-    src:          url("td-bold.woff") format("woff");
+    src:          url("../../../../frontend/fonts/futura-std-bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Parry";
-    src:          url("../../../-SemiBoldItalic.woff") format("woff");
+    src:          url("../../../../frontend/fonts/ParryPro-SemiBoldItalic.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Futura";
-    src:          url("td-book.woff") format("woff");
+    src:          url("../../../../frontend/fonts/futura-std-book.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
+
+body {
+    background: black;
+    --lumo-primary-color: black;
+    --lumo-primary-color-10pct: red;
+    --lumo-primary-color-20pct: red;
+    --lumo-body-text-color: red;
+    --lumo-header-text-color: green;
+    --lumo-font-family: Futura, sans-serif;
+}
+
+.uwp-login {
+    background: -webkit-linear-gradient(right,red,blue);
+}
+
 
 body {
     background: black;
