@@ -1,7 +1,23 @@
 @font-face {
-      font-family: Laylantia;
-      src: url(./frontend/styles/Laylantia.otf) format("opentype");
-    }
+    font-family: "Futura";
+    src:          url("td-bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Parry";
+    src:          url("../../../-SemiBoldItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Futura";
+    src:          url("td-book.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     background: black;
@@ -10,7 +26,7 @@ body {
     --lumo-primary-color-20pct: red;
     --lumo-body-text-color: red;
     --lumo-header-text-color: green;
-    --lumo-font-family: Laylantia, sans-serif;
+    --lumo-font-family: Futura, sans-serif;
 }
 
 .uwp-login {
