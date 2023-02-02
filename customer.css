@@ -1,3 +1,8 @@
+@font-face {
+      font-family: Laylantia;
+      src: url(./frontend/styles/Laylantia.otf) format("opentype");
+    }
+
 body {
     background: black;
     --lumo-primary-color: black;
@@ -5,6 +10,7 @@ body {
     --lumo-primary-color-20pct: red;
     --lumo-body-text-color: red;
     --lumo-header-text-color: green;
+    --lumo-font-family: Laylantia, sans-serif;
 }
 
 .uwp-login {
